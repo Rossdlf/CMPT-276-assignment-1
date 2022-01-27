@@ -1,0 +1,64 @@
+section{
+    background-color: rgb(225, 230, 236);
+    max-width: 720px;
+}
+h2{
+    color: red;
+}
+table{
+    text-align: left;
+    
+
+}
+td{
+    height: 55px;
+    width: 200px;
+    font-size: 130%;
+    border: 1px solid black;
+}
+th{
+    height: 55px;
+    width: 200px;
+    font-size: 130%;
+    background-color: grey;
+    border: 1px solid black;
+}
+body{
+    background-color: darkred;
+    padding-left: 50px;
+}
+main{
+    background-color: white;
+    width: 700px;
+    padding: 20px;
+    box-shadow: 0 20px 0 0 black, 0 -20px 0 0 black;
+    
+
+}
+[type="text" ] {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+[type="button"]{
+    background-color: red;
+    color: white;
+    height:40px;
+    width: 150px;
+}
+.result{
+    color: red;
+    font-size: 200%;
+}
+.buttons{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+.answer{
+    color: red;
+    font-size: 150%;
+}
+#answerid{
+    font-size: 20px;
+}

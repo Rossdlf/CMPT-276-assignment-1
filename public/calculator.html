@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./stylesheets/calculator.css">
+</head>
+<body>
+    <main>
+        
+        <h1>Grade Calculator</h1>
+
+        <section>
+            <h2>Activities</h2>
+            <p>
+                Give grades to the numeric activities:
+            </p> 
+            <table id="mytable">
+                <tr>
+                    <th> Name</th><th> Short Name</th><th> Weight</th>
+                    <th> Grade</th><th> Percent</th>
+                </tr>
+                <tr>
+                    <td id="col0">Activity 1</td>
+                    <td id="col1">A1</td>
+                    <td id="col2"><form><input type="text"name = "weight"value=0></form> </td>
+                    <td id="col3"><input type="text"name = "score" value=0> / <input type="text"name = "totalScore"value=0></td>
+                    <td id="col4" class ="output">0.00 %</td>
+                </tr>
+                <tr>
+                    <td >Activity 2</td>
+                    <td >A2</td>
+                    <td ><form><input type="text"name = "weight"value=0></form> </td>
+                    <td ><input type="text"name = "score" value=0> / <input type="text"name = "totalScore"value=0></td>
+                    <td  class ="output">0.00 %</td>
+                </tr>
+                <tr>
+                    <td >Activity 3</td>
+                    <td >A3</td>
+                    <td ><form><input type="text"name = "weight"value=0></form> </td>
+                    <td ><input type="text"name = "score" value=0> / <input type="text"name = "totalScore"value=0></td>
+                    <td  class ="output">0.00 %</td>
+                </tr>
+                <tr>
+                    <td >Activity 4</td>
+                    <td >A4</td>
+                    <td ><form><input type="text"name = "weight"value=0></form> </td>
+                    <td ><input type="text"name = "score" value=0> / <input type="text"name = "totalScore"value=0></td>
+                    <td  class ="output">0.00 %</td>
+                </tr>
+
+            </table>
+            <button type="button"class = "add"id="addbutton">ADD ACTIVITY</button>
+                <p class = "result">
+                    Result
+                </p>
+                <p id = "answerid">0.00 %</p>
+                <p class ="buttons"><button type="button" id ="weightedbutton" class ="weighted">Weighted</button>
+                <button type="button"id="meanbutton"class = "mean">Mean</button>
+                 </p>
+                   
+        </section>
+    </main>
+    <script type="text/javascript" src="./calculator.js"></script>
+</body>
+</html>
