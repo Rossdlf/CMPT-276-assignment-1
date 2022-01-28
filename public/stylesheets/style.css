@@ -1,0 +1,102 @@
+body {
+    background-color: darkred;
+}
+
+
+.black{
+    background-color: black;
+    position:relative;
+    height: 1060px;
+    width: 1820px;
+    left: 35px;
+    top: -15px;
+}
+
+.white{
+    background-color: white;
+    height: 1000px;
+    width:1820px;
+    position:absolute;
+    top: 0;
+    left: 43px;
+}
+.grades_text{
+    font-size: 200%;
+    position:absolute;
+    top: 50px;
+    left:200px
+}
+.lightgrey{
+    background-color: lightgrey;
+    height: 720px;
+    width: 1280px;
+    position: absolute;
+    top:150px;
+    left:200px;
+    
+}
+.header1{
+    font-size: 35px;
+    color: darkred;
+    position: absolute;
+    top:200px;
+    left:250px;
+}
+.header2{
+    font-size: 20px;
+    position:absolute;
+    top:300px;
+    left:250px;
+}
+.result{
+    font-size: 20px;
+    position:absolute;
+    top:800px;
+    left:250px;
+}
+.add{
+    position:absolute;
+    top:725px;
+    left:250px;
+}
+.weighted{
+    position:absolute;
+    top:800px;
+    left:750px;
+}
+.mean{
+    position:absolute;
+    top:800px;
+    left:925px;
+}
+
+[type="text" ] {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+[type="button"]{
+    background-color: darkred;
+    color: white;
+    height:40px;
+    width: 150px;
+}
+table{
+    position: absolute;
+    top:400px;
+    left: 250px;
+    text-align: left;
+    width: 45%;
+
+}
+td{
+    height: 55px;
+    font-size: 130%;
+    border: 1px solid black;
+}
+th{
+    height: 55px;
+    font-size: 130%;
+    background-color: grey;
+    border: 1px solid black;
+}
