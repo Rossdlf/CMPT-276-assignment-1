@@ -89,7 +89,7 @@ function addRowFunction(){
 
     cln0.innerHTML="Activity "+ i;
     cln1.innerHTML="A"+ i;
-    cln4.innerHTML="0.00 %";
+    cln4.innerHTML="";
     
     
     
@@ -114,9 +114,9 @@ function clearrow(){
     var clear2=document.getElementsByName("totalScore");
     
     for(g=i-1;g<i;g++){
-        clear0[g].value="0";
-        clear1[g].value="0";
-        clear2[g].value="0";
+        clear0[g].value="";
+        clear1[g].value="";
+        clear2[g].value="";
     }
 }
  
